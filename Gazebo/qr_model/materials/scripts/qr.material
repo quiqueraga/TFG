@@ -1,0 +1,16 @@
+material qr/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture material_2.png
+      }
+    }
+  }
+}
+
+
